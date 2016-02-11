@@ -16,5 +16,6 @@ In file index.html there are two div elements:
 
 ## Notes
 This repository contains a minimal npm build that allows to transpile typescript to es5 and run unit tests using mocha/chai/sinon.
+As an example of typescript class and unit tests, there is a complex number implementation. You are free to use that in the kata or not.
 There is also an html page containing a systemjs setup that provide live tranpilation of typescript within the browser.  
 Any PR aiming to improve the build process are obviously very welcome ;)
