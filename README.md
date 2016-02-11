@@ -10,6 +10,9 @@ Provide a rover implementation, without any link to the UI.
 ## Second step
 Plug your rover implementation to the keyboard and to the screen.  
 You can use RX.Observable.fromEvent() method to generate an observable from pressed keys.
+In file index.html there are two div elements:
+- A div which id=container where you can display the position and direction of the rover.
+- A div which id=rover that can move on the screen, reprensenting the rover itself
 
 ## Notes
 This repository contains a minimal npm build that allows to transpile typescript to es5 and run unit tests using mocha/chai/sinon.
