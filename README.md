@@ -4,6 +4,21 @@ This kata is strongly inspired by a [thoughtworks exercice](https://www.google.f
 The purpose here is to implement an implementation using Typescript and RxJS (v4)  
 Instead of receiving commands "L", "R" and "F" as in the original version, the rover should be driven using the arrows keys 'left', 'right' and 'up' (as forward).
 
+## Prerequisites
+You need typescript installed: 
+    
+    npm install typescript -g  
+    
+You also need tsd: 
+
+    npm install tsd -g  
+To test your installation you can run "npm test". This repository includes a complex number implementation alon with unit tests as an example.  
+
+**Note:** if you have installed Typescript with Visual Studio, you might have a very old version of typescript on your path. To know which version of typescript is installed on your box just type the followning command:
+
+    tsc -v // should return at least 1.7
+
+
 ## First step
 Provide a rover implementation, without any link to the UI.
 
