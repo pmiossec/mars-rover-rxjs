@@ -18,6 +18,11 @@ To test your installation you can run "npm test". This repository includes a com
 
     tsc -v // should return at least 1.7
 
+In order to transpile typescript code within your browser using file index.html, you need to use a static file http server. One simple solution is "http-server":
+
+    npm install http-server -g
+    
+and then just run http-server from the directory where is located index.html
 
 ## First step
 Provide a rover implementation, without any link to the UI.
